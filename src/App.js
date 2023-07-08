@@ -1,9 +1,13 @@
-import "./App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App-body">
-      <div className="btn btn-primary">Hello</div>
+    <div className="w-[1440px] m-auto">
+      <Navbar></Navbar>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   );
 }
