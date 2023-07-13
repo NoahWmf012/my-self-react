@@ -64,7 +64,7 @@ const cardVariants = {
 function AboutMe() {
     return (
         <div>
-            <div id='intro' className="hero min-h-screen bg-base-200">
+            <div id='intro' className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src="/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" alt='self pic' />
                     <div>
@@ -89,19 +89,10 @@ function AboutMe() {
                 </div>
             </div>
             <section>
-                <ParallaxText baseVelocity={5}>More</ParallaxText>
+                <ParallaxText baseVelocity={10}>More About Me  ↓  ↓  ↓ </ParallaxText>
             </section>
-            <div id='personality' className='w-full'>
-                <motion.div
-                    className="card-container"
-                    initial="offscreen"
-                    whileInView="onscreen"
-                    viewport={{ once: true, amount: 0.8 }}
-                >
-                    <motion.div className="card w-3/5" variants={cardVariants}>
-                        <Radar data={data} options={options} />
-                    </motion.div>
-                </motion.div>
+            <div id='personality' className='w-1/2'>
+                <Radar data={data} options={options} />
             </div>
         </div>
     )
