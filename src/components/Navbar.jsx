@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import cv from "../CV/Chris_WU_Man_Fung(Resume).pdf"
 
-
 const navbarItems = (
   <React.Fragment>
     <li><Link to={"#about"}>About Me</Link></li>
@@ -11,8 +10,7 @@ const navbarItems = (
     <li><Link to={"#project"}>Projects</Link></li>
   </React.Fragment>)
 
-
-function Navbar() {
+function NavbarItem() {
   return (
     <div className="navbar">
       <div className="navbar-start">
@@ -24,7 +22,7 @@ function Navbar() {
             {navbarItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl" href="/">Chris WU</a>
+        <a className="btn btn-ghost normal-case text-xl text-info" href="/">Chris WU</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -42,7 +40,21 @@ function Navbar() {
         </a>
       </div>
     </div>
+  )
+}
+
+export default function Navbar() {
+  return (
+    <div className="navbar">
+      <NavbarItem />
+    </div>
   );
 }
 
-export default Navbar;
+export function ScrollDownNavBar() {
+  return (
+    <div className="navbar fixed top-0 z-10 bg-gray-500 bg-opacity-20">
+      <NavbarItem />
+    </div>
+  )
+}

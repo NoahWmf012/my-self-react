@@ -1,8 +1,12 @@
 import React from 'react'
+import { HashScroll } from "react-hash-scroll";
 
 function Project() {
     return (
-        <div>Project</div>
+        <HashScroll hash="#project">
+            <div>Project</div>
+        </HashScroll>
+
     )
 }
 

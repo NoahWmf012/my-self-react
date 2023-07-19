@@ -1,8 +1,11 @@
 import React from 'react'
+import { HashScroll } from "react-hash-scroll";
 
 function Experience() {
     return (
-        <div>Experience</div>
+        <HashScroll hash="#experience">
+            <section>Experience</section>
+        </HashScroll>
     )
 }
 

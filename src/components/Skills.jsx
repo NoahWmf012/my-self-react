@@ -1,8 +1,12 @@
 import React from 'react'
+import { HashScroll } from "react-hash-scroll";
 
 function Skills() {
     return (
-        <div>Skills</div>
+        <HashScroll hash="#skills">
+            <div>Skills</div>
+        </HashScroll>
+
     )
 }
 

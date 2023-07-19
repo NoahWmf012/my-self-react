@@ -1,12 +1,35 @@
-import Navbar from "./components/Navbar";
+import { useState, useEffect } from "react";
+import Navbar, { ScrollDownNavBar } from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
+import DotNav from "./components/DotNav";
 
 function App() {
+
+  //set the navbar
+  const [isTopOfPage, setIsTopOfPage] = useState(true)
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY < 50) {
+        console.log("window.scrollY : ", window.scrollY)
+        setIsTopOfPage(true);
+      } else {
+        setIsTopOfPage(false)
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="w-[1440px] m-auto">
-      <Navbar></Navbar>
+    <div className="app">
+      <Navbar />
+      {isTopOfPage ? null : <ScrollDownNavBar />}
+
       <Outlet></Outlet>
+      <div className="w-5/6 mx-auto md:h-full">
+        <DotNav></DotNav>
+      </div>
       <Footer></Footer>
     </div>
   );

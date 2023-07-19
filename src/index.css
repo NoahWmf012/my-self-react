@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.app {
+  height: 100%;
+}
 
 section {
   padding-top: 5vh;
