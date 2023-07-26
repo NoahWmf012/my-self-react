@@ -11,7 +11,6 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY < 50) {
-        console.log("window.scrollY : ", window.scrollY)
         setIsTopOfPage(true);
       } else {
         setIsTopOfPage(false)

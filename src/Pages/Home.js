@@ -8,8 +8,8 @@ function Home() {
     return (
         <div>
             <About></About>
-            <Skills></Skills>
             <Experience></Experience>
+            <Skills></Skills>
             <Project></Project>
         </div>
     )

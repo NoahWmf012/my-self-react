@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import cv from "../CV/Chris_WU_Man_Fung(Resume).pdf"
+import { motion } from "framer-motion";
 
 const navbarItems = (
   <React.Fragment>
-    <li><Link to={"#about"}>About Me</Link></li>
-    <li><Link to={"#skills"}>Skills</Link></li>
-    <li><Link to={"#experience"}>Experience</Link></li>
-    <li><Link to={"#project"}>Projects</Link></li>
+    <li className="text-warning"><Link to={"#about"}>About Me</Link></li>
+    <li className="text-warning"><Link to={"#skills"}>Skills</Link></li>
+    <li className="text-warning"><Link to={"#experience"}>Experience</Link></li>
+    <li className="text-warning"><Link to={"#project"}>Projects</Link></li>
   </React.Fragment>)
 
 function NavbarItem() {
@@ -53,8 +54,18 @@ export default function Navbar() {
 
 export function ScrollDownNavBar() {
   return (
-    <div className="navbar fixed top-0 z-10 bg-gray-500 bg-opacity-20">
+    // <div className="navbar fixed top-0 z-10 bg-gray-500 bg-opacity-20">
+    <motion.div
+      className="navbar fixed top-0 z-10 bg-gray-500 bg-opacity-20"
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 0.8,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+    >
       <NavbarItem />
-    </div>
+    </motion.div>
+    // </div>
   )
 }

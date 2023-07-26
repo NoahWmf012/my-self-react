@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
+import { Form, Radio } from 'react-daisyui';
 
 const navbarItems = (
     <React.Fragment>
@@ -14,26 +15,10 @@ function DotNav() {
 
     return (
         <div className='flex flex-col gap-3 fixed top-[50%] right-7'>
-            <div className="form-control">
-                <label className="label cursor-pointer">
-                    <input type="radio" name="radio-10" className="radio radio-xs checked:bg-blue-500" checked />
-                </label>
-            </div>
-            <div className="form-control">
-                <label className="label cursor-pointer">
-                    <input type="radio" name="radio-10" className="radio radio-xs checked:bg-blue-500" />
-                </label>
-            </div>
-            <div className="form-control">
-                <label className="label cursor-pointer">
-                    <input type="radio" name="radio-10" className="radio radio-xs checked:bg-blue-500" />
-                </label>
-            </div>
-            <div className="form-control">
-                <label className="label cursor-pointer">
-                    <input type="radio" name="radio-10" className="radio radio-xs checked:bg-blue-500" />
-                </label>
-            </div>
+            <Form>
+                <Radio className="radio radio-xs checked:bg-blue-500 m-1" name="radio1" defaultChecked />
+                <Radio className="radio radio-xs checked:bg-blue-500 m-1" name="radio1" />
+            </Form>
         </div>
     )
 }
