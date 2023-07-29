@@ -27,7 +27,7 @@ function App() {
 
       <Outlet></Outlet>
       <div className="w-5/6 mx-auto md:h-full">
-        <DotNav></DotNav>
+        {/* <DotNav></DotNav> */}
       </div>
       <Footer></Footer>
     </div>
