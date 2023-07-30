@@ -15,6 +15,9 @@ const navbarItems = (
       <Link to={"#experience"}>Experience</Link>
     </li>
     <li className="text-warning">
+      <Link to={"#edication"}>Education</Link>
+    </li>
+    <li className="text-warning">
       <Link to={"#project"}>Projects</Link>
     </li>
   </React.Fragment>
