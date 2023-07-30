@@ -65,7 +65,7 @@ const cardVariants = {
 
 function AboutMe() {
     return (
-        <HashScroll hash="#project">
+        <HashScroll hash="#about">
             <div>
                 <div id='about-me' className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex-row">

@@ -3,14 +3,16 @@ import About from '../components/AboutMe'
 import Skills from '../components/Skills'
 import Experience from '../components/Experience'
 import Project from '../components/Project'
+import Education from '../components/Education'
 
 function Home() {
     return (
         <div>
-            <About></About>
-            <Experience></Experience>
-            <Skills></Skills>
-            <Project></Project>
+            <About />
+            <Experience />
+            <Skills />
+            <Education />
+            <Project />
         </div>
     )
 }
