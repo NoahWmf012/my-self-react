@@ -53,5 +53,6 @@
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
-  }
+  },
+  "homepage": "https://chriswu012.github.io/my-react-app"
 }
