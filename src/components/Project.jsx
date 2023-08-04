@@ -36,7 +36,10 @@ const liStyle = {
 
 function ProjectItem(props) {
     return (
-        <motion.div className="card w-96 bg-slate-700 shadow-xl m-2 sm:w-100" variants={item} >
+        <motion.div
+            className="card w-96 bg-slate-700 shadow-xl m-2 sm:w-100"
+            variants={item}
+        >
             <a href={props.url} target="_blank" rel="noreferrer">
                 <div className="card-body">
                     <h2 className="card-title text-neutral-50">{props.title}</h2>
@@ -61,10 +64,11 @@ function Project() {
     return (
         <HashScroll hash="#project">
             <motion.ul
-                className="w-full flex flex-wrap justify-center mt-20 mb-10 container"
+                className="w-full flex flex-wrap justify-center mt-20 mb-10"
                 variants={container}
                 initial="hidden"
-                animate="visible"
+                whileInView="visible"
+                transition={{ duration: 2.5 }}
             >
                 <ProjectItem title={"Demon Slayer Crossing"} content={"A 2d simple game on Google Play."} url={"https://play.google.com/store/apps/details?id=com.customer.colorjump&pli=1"} icon={[csIcon, unityIcon]} />
                 <ProjectItem title={"Todo Application"} content={"To-do React Application with PostgresDB"} url={"https://github.com/ChrisWU012/ReactJS-todo-application-with-DB"} icon={[reactIcon, nodeJSIcon, postgreIcon]} />
