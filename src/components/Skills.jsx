@@ -38,11 +38,9 @@ function SkillItems(props) {
                 whileInView={{ opacity: 1, width: "100%" }}
                 transition={{ duration: 1.7 }}
             >
-                {/* <div className="col-span-6  bg-slate-700 relative mt-[8px] h-[10px] w-[90%] rounded-2xl top-50 align-self-center"> */}
                 <div
                     className={`${props.color} top-0 left-0 h-full ${props.value} rounded-2xl align-self-center`}
                 ></div>
-                {/* </div> */}
             </motion.div>
         </div>
     )
