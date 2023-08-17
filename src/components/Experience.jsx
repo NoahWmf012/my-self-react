@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { HashScroll } from "react-hash-scroll";
 import { motion } from "framer-motion";
 import laptopIcon from "../images/laptop.png"
@@ -29,6 +29,41 @@ const liRStyle = {
 }
 
 function Experience() {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const setImageSize = () => {
+        if (windowWidth < 720) {
+            return 'hidden';
+        } else {
+            return "w-1/3 relative"
+        }
+    };
+
+    const setContentSize = (isRight) => {
+        if (windowWidth > 720) {
+            if (isRight) {
+                return "w-2/3 mr-10 text-end text-right"
+            }
+            return "w-2/3 ml-10"
+        } else {
+            if (isRight) {
+                return "w-full mx-10 text-right"
+            }
+            return "w-full mx-10"
+        }
+    }
+
     return (
         <HashScroll hash="#experience">
             <div className='grid place-content-center'>
@@ -42,7 +77,7 @@ function Experience() {
                     }}
                     variants={variants}
                 >
-                    <div className='w-2/3 ml-10 '>
+                    <div className={`${setContentSize()}`}>
                         <p className='font-bold text-xl text-info'>Full Stack Web Developer (Oct 2022 - Present)</p>
                         <p className='italic font-thin'>Tradelink Electronic Commerce Limited • Hong Kong SAR</p>
                         <div>
@@ -66,8 +101,8 @@ function Experience() {
                             Through my contributions, I played an important role in the success of these critical projects.
                         </p>
                     </div>
-                    <div className='w-1/3 relative'>
-                        <img className='width-[400px] right-0' src={laptopIcon} alt='laptop-icon'></img>
+                    <div className={`${setImageSize()}`}>
+                        <img className={`h-full right-0`} src={laptopIcon} alt='laptop-icon'></img>
                     </div>
                 </motion.div>
 
@@ -82,12 +117,12 @@ function Experience() {
                     variants={variants}
                 >
 
-                    <div className='w-1/3 relative'>
-                        <img className='width-[400px] left-0' src={mentorIcon} alt='mentor-icon'></img>
+                    <div className={`${setImageSize()}`}>
+                        <img className='h-full left-0' src={mentorIcon} alt='mentor-icon'></img>
                     </div>
-                    <div className='w-2/3 mr-10 text-end'>
-                        <p className='font-bold text-xl text-info'>Full-stack Web Development Mentor (May 2023 - Present)</p>
-                        <p className='italic font-thin'>Xccelerate Org • Hong Kong SAR</p>
+                    <div className={`${setContentSize(true)}`}>
+                        <p className='font-bold text-xl text-info text-right'>Full-stack Web Development Mentor (May 2023 - Present)</p>
+                        <p className='italic font-thin text-right'>Xccelerate Org • Hong Kong SAR</p>
                         <div>
                             <ul className="list-disc text-accent-content">
                                 <li style={liRStyle}>AWS deployment</li>
@@ -97,7 +132,7 @@ function Experience() {
                                 <li style={liRStyle}>HTML / CSS / JavaScript</li>
                             </ul>
                         </div>
-                        <p>
+                        <p className='text-right'>
                             <br />
                             <br />
                             As an instructor, I mentored 10 students per class while updating teaching materials.
@@ -121,7 +156,7 @@ function Experience() {
                     }}
                     variants={variants}
                 >
-                    <div className='w-2/3 ml-10 '>
+                    <div className={`${setContentSize()}`}>
                         <p className='font-bold text-xl text-info'>Front-end Game Developer (Jun 2021 - Jun 2022)</p>
                         <p className='italic font-thin'>Szeka Limited • Hong Kong SAR</p>
                         <div>
@@ -143,8 +178,8 @@ function Experience() {
                             implementing, modifying, and maintaining gameplay features that are integrated effectively into the software system.
                         </p>
                     </div>
-                    <div className='w-1/3 relative'>
-                        <img className='width-[400px] right-0' src={gameIcon} alt='game-icon'></img>
+                    <div className={`${setImageSize()}`}>
+                        <img className='h-full right-0' src={gameIcon} alt='game-icon'></img>
                     </div>
                 </motion.div>
             </div>

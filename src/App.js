@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Navbar, { ScrollDownNavBar } from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
-import DotNav from "./components/DotNav";
+// import DotNav from "./components/DotNav";
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
       {isTopOfPage ? null : <ScrollDownNavBar />}
 
       <Outlet></Outlet>
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-full text-inherit">
         {/* <DotNav></DotNav> */}
       </div>
       <Footer></Footer>
