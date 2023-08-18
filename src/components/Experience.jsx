@@ -81,7 +81,7 @@ function Experience() {
                         <p className='font-bold text-xl text-info'>Full Stack Web Developer (Oct 2022 - Present)</p>
                         <p className='italic font-thin text-slate-300'>Tradelink Electronic Commerce Limited • Hong Kong SAR</p>
                         <div>
-                            <ul className="list-disc text-accent-content">
+                            <ul className="list-disc text-gray-100">
                                 <li style={liStyle}>Spring Boot (JAVA)</li>
                                 <li style={liStyle}>React (JavaScript / TypeScript)</li>
                                 <li style={liStyle}>MySQL / OracleDB</li>
@@ -89,7 +89,7 @@ function Experience() {
 
                             </ul>
                         </div>
-                        <p>
+                        <p className='text-gray-400'>
                             <br />
                             <br />
                             I contributed to several projects related to Hong Kong's exports and imports,
@@ -122,9 +122,9 @@ function Experience() {
                     </div>
                     <div className={`${setContentSize(true)}`}>
                         <p className='font-bold text-xl text-info text-right'>Full-stack Web Development Mentor (May 2023 - Present)</p>
-                        <p className='italic font-thin text-right'>Xccelerate Org • Hong Kong SAR</p>
+                        <p className='italic font-thin text-right text-slate-300'>Xccelerate Org • Hong Kong SAR</p>
                         <div>
-                            <ul className="list-disc text-accent-content">
+                            <ul className="list-disc text-gray-100">
                                 <li style={liRStyle}>AWS deployment</li>
                                 <li style={liRStyle}>PostgreSQL</li>
                                 <li style={liRStyle}>ReactJS</li>
@@ -132,7 +132,7 @@ function Experience() {
                                 <li style={liRStyle}>HTML / CSS / JavaScript</li>
                             </ul>
                         </div>
-                        <p className='text-right'>
+                        <p className='text-right text-gray-400'>
                             <br />
                             <br />
                             As an instructor, I mentored 10 students per class while updating teaching materials.
@@ -158,9 +158,9 @@ function Experience() {
                 >
                     <div className={`${setContentSize()}`}>
                         <p className='font-bold text-xl text-info'>Front-end Game Developer (Jun 2021 - Jun 2022)</p>
-                        <p className='italic font-thin'>Szeka Limited • Hong Kong SAR</p>
+                        <p className='italic font-thin text-slate-300'>Szeka Limited • Hong Kong SAR</p>
                         <div>
-                            <ul className="list-disc text-accent-content">
+                            <ul className="list-disc text-gray-100">
                                 <li style={liStyle}>Unity3D (C#)</li>
                                 <li style={liStyle}>Cocos-2D (Lua)</li>
                                 <li style={liStyle}>Git</li>
@@ -168,7 +168,7 @@ function Experience() {
                                 <li style={liStyle}>Android Studio</li>
                             </ul>
                         </div>
-                        <p>
+                        <p className='text-gray-400'>
                             <br />
                             <br />
                             The individual has experience in game development for mobile platforms,

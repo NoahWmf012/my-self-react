@@ -14,9 +14,9 @@ const navbarItems = (
     <li className="text-warning">
       <Link to={"#experience"}>Experience</Link>
     </li>
-    <li className="text-warning">
-      <Link to={"#edication"}>Education</Link>
-    </li>
+    {/* <li className="text-warning">
+      <Link to={"#education"}>Education</Link>
+    </li> */}
     <li className="text-warning">
       <Link to={"#project"}>Projects</Link>
     </li>

@@ -43,7 +43,7 @@ function ProjectItem(props) {
             <a href={props.url} target="_blank" rel="noreferrer">
                 <div className="card-body">
                     <h2 className="card-title text-neutral-50">{props.title}</h2>
-                    <p>{props.content}</p>
+                    <p className='text-gray-400'>{props.content}</p>
                     <ul className="list-disc text-accent-content">
                         {props.icon ? props.icon.map((e, key) => {
                             return (

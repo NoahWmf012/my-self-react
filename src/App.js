@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app bg-neutral-800">
+    <div className="app ">
       <Navbar />
       {isTopOfPage ? null : <ScrollDownNavBar />}
 
