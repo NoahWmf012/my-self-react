@@ -65,7 +65,7 @@ function NavbarItem() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="btn text-accent hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
+          <button className="btn bg-gray-900 text-accent border-transparent hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
             Download Resume
           </button>
         </a>

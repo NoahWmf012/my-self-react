@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { HashScroll } from "react-hash-scroll";
 import Lottie from "lottie-react";
 import animatedSkill from "../images/animation_lkezquxu.json"
@@ -25,12 +25,12 @@ const ContainerVariants = {
 };
 
 function SkillItems(props) {
-    return (
 
+    return (
         <div className="my-4 grid grid-flow-col">
             <div className='col-span-1 w-[24px] justify-self-start h-[24px] mr-1 flex items-center' >
                 <img className='w-[24px] mr-1' src={props.icon} alt="csharp icon" />
-                <span className='text-primary-content'>{props.title}</span>
+                <span className={`text-primary-content ${props.spanClass}`}>{props.title}</span>
             </div>
             <motion.div
                 className='col-span-6  bg-slate-700 relative mt-[8px] h-[10px] w-[90%] rounded-2xl top-50 align-self-center'
@@ -47,6 +47,33 @@ function SkillItems(props) {
 }
 
 function Skills() {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    useEffect(() => {
+        const handleResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+    const setTextSize = () => {
+        if (windowWidth < 900) {
+            return 'hidden';
+        }
+    };
+    const setImageSize = () => {
+        if (windowWidth > 720) {
+            return 'w-[400px]';
+        } else if (windowWidth > 480) {
+            return 'w-[300px]'
+        } else {
+            return 'w-[180px]'
+        }
+    }
+
     return (
         <HashScroll hash="#skills">
             <motion.div
@@ -59,14 +86,14 @@ function Skills() {
                 }}
                 variants={ContainerVariants}
             >
-                <div className='flex-initial'><Lottie className='w-[400px]' animationData={animatedSkill} loop={true} /></div>
+                <div className='flex-initial'><Lottie className={`${setImageSize()}`} animationData={animatedSkill} loop={true} /></div>
                 <div className="flex-initial w-full px-4 lg:w-7/12 self-center">
-                    <SkillItems title={"MySQL"} icon={mySQLIcon} color={`bg-warning`} value={`w-[75%]`} />
-                    <SkillItems title={"ReactJS"} icon={reactIcon} color={`bg-warning`} value={`w-[80%]`} />
-                    <SkillItems title={"SpringBoot"} icon={springBootIcon} color={`bg-warning`} value={`w-[70%]`} />
-                    <SkillItems title={"NodeJS"} icon={nodeJSIcon} color={`bg-success `} value={`w-[60%]`} />
-                    <SkillItems title={"C#"} icon={csIcon} color={`bg-primary`} value={`w-[50%]`} />
-                    <SkillItems title={"Python"} icon={pythonIcon} color={`bg-primary`} value={`w-[35%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"MySQL"} icon={mySQLIcon} color={`bg-warning`} value={`w-[75%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"ReactJS"} icon={reactIcon} color={`bg-warning`} value={`w-[80%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"SpringBoot"} icon={springBootIcon} color={`bg-warning`} value={`w-[70%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"NodeJS"} icon={nodeJSIcon} color={`bg-success `} value={`w-[60%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"C#"} icon={csIcon} color={`bg-primary`} value={`w-[50%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"Python"} icon={pythonIcon} color={`bg-primary`} value={`w-[35%]`} />
                 </div>
             </motion.div>
         </HashScroll>

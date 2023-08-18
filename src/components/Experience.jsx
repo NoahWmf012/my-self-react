@@ -79,7 +79,7 @@ function Experience() {
                 >
                     <div className={`${setContentSize()}`}>
                         <p className='font-bold text-xl text-info'>Full Stack Web Developer (Oct 2022 - Present)</p>
-                        <p className='italic font-thin'>Tradelink Electronic Commerce Limited • Hong Kong SAR</p>
+                        <p className='italic font-thin text-slate-300'>Tradelink Electronic Commerce Limited • Hong Kong SAR</p>
                         <div>
                             <ul className="list-disc text-accent-content">
                                 <li style={liStyle}>Spring Boot (JAVA)</li>
