@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Self-Introduction-React/static/css/main.19d6f66c.css",
-    "main.js": "/Self-Introduction-React/static/js/main.6559ac7c.js",
+    "main.css": "/Self-Introduction-React/static/css/main.ad59e5a3.css",
+    "main.js": "/Self-Introduction-React/static/js/main.1b26e1e9.js",
     "static/media/postgre-icon.png": "/Self-Introduction-React/static/media/postgre-icon.c2d134bb56bf8d0d8859.png",
     "static/media/self-pic.jpg": "/Self-Introduction-React/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
     "static/media/bootcamp-mentor.png": "/Self-Introduction-React/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
@@ -18,7 +18,7 @@
     "index.html": "/Self-Introduction-React/index.html"
   },
   "entrypoints": [
-    "static/css/main.19d6f66c.css",
-    "static/js/main.6559ac7c.js"
+    "static/css/main.ad59e5a3.css",
+    "static/js/main.1b26e1e9.js"
   ]
 }
