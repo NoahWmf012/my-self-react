@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Self-Introduction-React/static/css/main.c5133688.css",
-    "main.js": "/Self-Introduction-React/static/js/main.fb589129.js",
+    "main.js": "/Self-Introduction-React/static/js/main.ee287d5c.js",
     "static/media/postgre-icon.png": "/Self-Introduction-React/static/media/postgre-icon.c2d134bb56bf8d0d8859.png",
     "static/media/self-pic.jpg": "/Self-Introduction-React/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
     "static/media/bootcamp-mentor.png": "/Self-Introduction-React/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
     "static/media/unity.jpg": "/Self-Introduction-React/static/media/unity.bd291d6b31be36f144ef.jpg",
     "static/media/c-sharp-icon.png": "/Self-Introduction-React/static/media/c-sharp-icon.6068131e29c3981af639.png",
     "static/media/LeetCode_logo.png": "/Self-Introduction-React/static/media/LeetCode_logo.d7b768a78c57b17f633d.png",
-    "static/media/Chris_WU_Man_Fung(Resume).pdf": "/Self-Introduction-React/static/media/Chris_WU_Man_Fung(Resume).b392554e5a575be715d9.pdf",
+    "static/media/Chris_WU_Man_Fung(Resume).pdf": "/Self-Introduction-React/static/media/Chris_WU_Man_Fung(Resume).9aa73599e069aa7f4c6d.pdf",
     "static/media/unity-icon.png": "/Self-Introduction-React/static/media/unity-icon.ef23dd3caf1ba0b86e6a.png",
     "static/media/python-icon.png": "/Self-Introduction-React/static/media/python-icon.5a3b439c5d844bd5081b.png",
     "static/media/laptop.png": "/Self-Introduction-React/static/media/laptop.8e5db19fc7e6a4a0d88a.png",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.c5133688.css",
-    "static/js/main.fb589129.js"
+    "static/js/main.ee287d5c.js"
   ]
 }
