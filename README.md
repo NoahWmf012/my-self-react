@@ -9,4 +9,4 @@ As a 2 year-experienced web developer with solid skills in ReactJS/TypeScript, J
 - Animation
 - Responsive Design
 
-(https://chriswu012.github.io/Self-Introduction-React/ "Click Here To See")
+[Click Here To See](https://chriswu012.github.io/Self-Introduction-React/ "Click Here To See")
