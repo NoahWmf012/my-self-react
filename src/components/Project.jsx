@@ -71,8 +71,8 @@ function Project() {
                 transition={{ duration: 2.5 }}
             >
                 <ProjectItem title={"Demon Slayer Crossing"} content={"A 2d simple game on Google Play."} url={"https://play.google.com/store/apps/details?id=com.customer.colorjump&pli=1"} icon={[csIcon, unityIcon]} />
-                <ProjectItem title={"Todo Application"} content={"To-do React Application with PostgresDB"} url={"https://github.com/ChrisWU012/ReactJS-todo-application-with-DB"} icon={[reactIcon, nodeJSIcon, postgreIcon]} />
-                <ProjectItem title={"Office Timer"} content={"Practice for AWS Deployment tools"} url={"https://github.com/ChrisWU012/react-office-timer"} icon={[reactIcon, awsIcon]} />
+                <ProjectItem title={"Todo Application"} content={"To-do React Application with PostgresDB"} url={"https://github.com/NoahWmf012/ReactJS-todo-application-with-DB"} icon={[reactIcon, nodeJSIcon, postgreIcon]} />
+                <ProjectItem title={"Office Timer"} content={"Practice for AWS Deployment tools"} url={"https://github.com/NoahWmf012/react-office-timer"} icon={[reactIcon, awsIcon]} />
             </motion.ul>
         </HashScroll>
 

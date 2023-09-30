@@ -71,9 +71,9 @@ function AboutMe() {
                     <div className="hero-content flex-col lg:flex-row">
                         <img src={SelfPic} className="max-w-sm rounded-lg shadow-2xl" alt='self pic' />
                         <div>
-                            <h1 className="text-5xl font-bold text-accent"><Typewriter
+                            <h1 className="text-5xl font-bold text-accent h-24"><Typewriter
                                 options={{
-                                    strings: ["I'm Chris", 'A full-stack web developer', 'in ReactJS, NodeJS & Spring Boot'],
+                                    strings: ["I'm Noah", 'A full-stack web developer', 'in ReactJS, NodeJS & Spring Boot'],
                                     autoStart: true,
                                     loop: true,
                                     deleteSpeed: 12,

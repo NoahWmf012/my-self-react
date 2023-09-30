@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cv from "../CV/Chris_WU_Man_Fung(Resume).pdf";
+import cv from "../CV/Noah WU_Resume.pdf";
 import { motion } from "framer-motion";
 
 const navbarItems = (
@@ -52,7 +52,7 @@ function NavbarItem() {
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl text-info" href="/Self-Introduction-React/">
-          Chris WU
+          Noah WU
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -61,7 +61,7 @@ function NavbarItem() {
       <div className="navbar-end">
         <a
           href={cv}
-          download="Example-PDF-document"
+          download="Noah WU_Resume"
           target="_blank"
           rel="noreferrer"
         >
