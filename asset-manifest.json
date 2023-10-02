@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-self/static/css/main.a1202e42.css",
-    "main.js": "/my-self/static/js/main.f1184288.js",
-    "static/media/postgre-icon.png": "/my-self/static/media/postgre-icon.c2d134bb56bf8d0d8859.png",
-    "static/media/self-pic.jpg": "/my-self/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
-    "static/media/bootcamp-mentor.png": "/my-self/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
-    "static/media/unity.jpg": "/my-self/static/media/unity.bd291d6b31be36f144ef.jpg",
-    "static/media/c-sharp-icon.png": "/my-self/static/media/c-sharp-icon.6068131e29c3981af639.png",
-    "static/media/LeetCode_logo.png": "/my-self/static/media/LeetCode_logo.d7b768a78c57b17f633d.png",
-    "static/media/Noah WU_Resume.pdf": "/my-self/static/media/Noah WU_Resume.4043aea1ab73a1d905b3.pdf",
-    "static/media/unity-icon.png": "/my-self/static/media/unity-icon.ef23dd3caf1ba0b86e6a.png",
-    "static/media/python-icon.png": "/my-self/static/media/python-icon.5a3b439c5d844bd5081b.png",
-    "static/media/laptop.png": "/my-self/static/media/laptop.8e5db19fc7e6a4a0d88a.png",
-    "static/media/mysql-icon.png": "/my-self/static/media/mysql-icon.bdbd1eb709e4c13258d2.png",
-    "static/media/react-icon.png": "/my-self/static/media/react-icon.4458987cc59156258cac.png",
-    "static/media/spring-icon.svg": "/my-self/static/media/spring-icon.5c62e7f4bbd6f07c0fd84d21ce9050ca.svg",
-    "index.html": "/my-self/index.html"
+    "main.css": "/Self-Introduction-React/static/css/main.a1202e42.css",
+    "main.js": "/Self-Introduction-React/static/js/main.226bd011.js",
+    "static/media/postgre-icon.png": "/Self-Introduction-React/static/media/postgre-icon.c2d134bb56bf8d0d8859.png",
+    "static/media/self-pic.jpg": "/Self-Introduction-React/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
+    "static/media/bootcamp-mentor.png": "/Self-Introduction-React/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
+    "static/media/unity.jpg": "/Self-Introduction-React/static/media/unity.bd291d6b31be36f144ef.jpg",
+    "static/media/c-sharp-icon.png": "/Self-Introduction-React/static/media/c-sharp-icon.6068131e29c3981af639.png",
+    "static/media/LeetCode_logo.png": "/Self-Introduction-React/static/media/LeetCode_logo.d7b768a78c57b17f633d.png",
+    "static/media/Noah WU_Resume.pdf": "/Self-Introduction-React/static/media/Noah WU_Resume.4043aea1ab73a1d905b3.pdf",
+    "static/media/unity-icon.png": "/Self-Introduction-React/static/media/unity-icon.ef23dd3caf1ba0b86e6a.png",
+    "static/media/python-icon.png": "/Self-Introduction-React/static/media/python-icon.5a3b439c5d844bd5081b.png",
+    "static/media/laptop.png": "/Self-Introduction-React/static/media/laptop.8e5db19fc7e6a4a0d88a.png",
+    "static/media/mysql-icon.png": "/Self-Introduction-React/static/media/mysql-icon.bdbd1eb709e4c13258d2.png",
+    "static/media/react-icon.png": "/Self-Introduction-React/static/media/react-icon.4458987cc59156258cac.png",
+    "static/media/spring-icon.svg": "/Self-Introduction-React/static/media/spring-icon.5c62e7f4bbd6f07c0fd84d21ce9050ca.svg",
+    "index.html": "/Self-Introduction-React/index.html"
   },
   "entrypoints": [
     "static/css/main.a1202e42.css",
-    "static/js/main.f1184288.js"
+    "static/js/main.226bd011.js"
   ]
 }
