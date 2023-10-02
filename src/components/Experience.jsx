@@ -78,7 +78,7 @@ function Experience() {
                     variants={variants}
                 >
                     <div className={`${setContentSize()}`}>
-                        <p className='font-bold text-xl text-info'>Full Stack Web Developer (Oct 2022 - Present)</p>
+                        <p className='font-bold text-xl text-info'>Full Stack Web Developer (Oct 2022 - Sep 2023)</p>
                         <p className='italic font-thin text-slate-300'>Tradelink Electronic Commerce Limited • Hong Kong SAR</p>
                         <div>
                             <ul className="list-disc text-gray-100">
@@ -121,7 +121,7 @@ function Experience() {
                         <img className='h-full left-0' src={mentorIcon} alt='mentor-icon'></img>
                     </div>
                     <div className={`${setContentSize(true)}`}>
-                        <p className='font-bold text-xl text-info text-right'>Full-stack Web Development Mentor (May 2023 - Present)</p>
+                        <p className='font-bold text-xl text-info text-right'>Full-stack Web Development Mentor (May 2023 - Nov 2023)</p>
                         <p className='italic font-thin text-right text-slate-300'>Xccelerate Org • Hong Kong SAR</p>
                         <div>
                             <ul className="list-disc text-gray-100">
