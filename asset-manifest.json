@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-self-react/static/css/main.a1202e42.css",
-    "main.js": "/my-self-react/static/js/main.0513946f.js",
+    "main.js": "/my-self-react/static/js/main.d48779ee.js",
     "static/media/postgre-icon.png": "/my-self-react/static/media/postgre-icon.c2d134bb56bf8d0d8859.png",
     "static/media/self-pic.jpg": "/my-self-react/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
     "static/media/bootcamp-mentor.png": "/my-self-react/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
     "static/media/unity.jpg": "/my-self-react/static/media/unity.bd291d6b31be36f144ef.jpg",
     "static/media/c-sharp-icon.png": "/my-self-react/static/media/c-sharp-icon.6068131e29c3981af639.png",
     "static/media/LeetCode_logo.png": "/my-self-react/static/media/LeetCode_logo.d7b768a78c57b17f633d.png",
-    "static/media/Noah WU_Resume.pdf": "/my-self-react/static/media/Noah WU_Resume.4043aea1ab73a1d905b3.pdf",
+    "static/media/Noah WU_Resume.pdf": "/my-self-react/static/media/Noah WU_Resume.424da9a2246474515f0c.pdf",
     "static/media/unity-icon.png": "/my-self-react/static/media/unity-icon.ef23dd3caf1ba0b86e6a.png",
     "static/media/python-icon.png": "/my-self-react/static/media/python-icon.5a3b439c5d844bd5081b.png",
     "static/media/laptop.png": "/my-self-react/static/media/laptop.8e5db19fc7e6a4a0d88a.png",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.a1202e42.css",
-    "static/js/main.0513946f.js"
+    "static/js/main.d48779ee.js"
   ]
 }
