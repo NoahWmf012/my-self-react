@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-self-react/static/css/main.a1202e42.css",
-    "main.js": "/my-self-react/static/js/main.70a0322e.js",
+    "main.js": "/my-self-react/static/js/main.1373ec10.js",
     "static/media/postgre-icon.png": "/my-self-react/static/media/postgre-icon.c2d134bb56bf8d0d8859.png",
     "static/media/self-pic.jpg": "/my-self-react/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
     "static/media/bootcamp-mentor.png": "/my-self-react/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.a1202e42.css",
-    "static/js/main.70a0322e.js"
+    "static/js/main.1373ec10.js"
   ]
 }
