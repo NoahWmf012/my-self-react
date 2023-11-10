@@ -51,7 +51,7 @@ function NavbarItem() {
             {navbarItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl text-info" href="/Self-Introduction-React/">
+        <a className="btn btn-ghost normal-case text-xl text-info" href="/my-self-react/">
           Noah WU
         </a>
       </div>
