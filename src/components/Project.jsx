@@ -2,10 +2,8 @@ import React from 'react'
 import { HashScroll } from "react-hash-scroll";
 import csIcon from "../images/c-sharp-icon.png"
 import unityIcon from "../images/unity-icon.png"
-import reactIcon from "../images/react-icon.png"
-import nodeJSIcon from "../images/node-js-icon.png"
-import postgreIcon from "../images/postgre-icon.png"
-import awsIcon from "../images/aws-icon.png"
+import googleMapIcon from "../images/google-map-icon.png"
+import vuejsIcon from "../images/vuejs-icon.webp"
 import { motion } from 'framer-motion';
 
 const container = {
@@ -70,9 +68,9 @@ function Project() {
                 whileInView="visible"
                 transition={{ duration: 2.5 }}
             >
-                <ProjectItem title={"Demon Slayer Crossing"} content={"A 2d simple game on Google Play."} url={"https://play.google.com/store/apps/details?id=com.customer.colorjump&pli=1"} icon={[csIcon, unityIcon]} />
-                <ProjectItem title={"Todo Application"} content={"To-do React Application with PostgresDB"} url={"https://github.com/NoahWmf012/ReactJS-todo-application-with-DB"} icon={[reactIcon, nodeJSIcon, postgreIcon]} />
-                <ProjectItem title={"Office Timer"} content={"Practice for AWS Deployment tools"} url={"https://github.com/NoahWmf012/react-office-timer"} icon={[reactIcon, awsIcon]} />
+                <ProjectItem title={"Demon Slayer Crossing"} content={"A 2d simple game on Google Play."} url={"https://www.youtube.com/watch?v=-NhENndYqpY&ab_channel=DeveloperGame"} icon={[csIcon, unityIcon]} />
+                {/* {/* <ProjectItem title={"Todo Application"} content={"To-do React Application with PostgresDB"} url={"https://github.com/NoahWmf012/ReactJS-todo-application-with-DB"} icon={[reactIcon, nodeJSIcon, postgreIcon]} /> */}
+                <ProjectItem title={"Google Map Application"} content={"Practice for VueJS"} url={"https://github.com/NoahWmf012/google-map-code-test"} icon={[googleMapIcon, vuejsIcon]} />
             </motion.ul>
         </HashScroll>
 
