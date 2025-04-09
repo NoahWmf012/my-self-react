@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/my-self-react/static/css/main.a1202e42.css",
-    "main.js": "/my-self-react/static/js/main.1373ec10.js",
-    "static/media/postgre-icon.png": "/my-self-react/static/media/postgre-icon.c2d134bb56bf8d0d8859.png",
+    "main.css": "/my-self-react/static/css/main.57abf630.css",
+    "main.js": "/my-self-react/static/js/main.c6a78fec.js",
     "static/media/self-pic.jpg": "/my-self-react/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
     "static/media/bootcamp-mentor.png": "/my-self-react/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
+    "static/media/Noah WU_Resume.pdf": "/my-self-react/static/media/Noah WU_Resume.781785d9347257dc0e2f.pdf",
     "static/media/unity.jpg": "/my-self-react/static/media/unity.bd291d6b31be36f144ef.jpg",
     "static/media/c-sharp-icon.png": "/my-self-react/static/media/c-sharp-icon.6068131e29c3981af639.png",
     "static/media/LeetCode_logo.png": "/my-self-react/static/media/LeetCode_logo.d7b768a78c57b17f633d.png",
-    "static/media/Noah WU_Resume.pdf": "/my-self-react/static/media/Noah WU_Resume.ef8ecfeb0538d55d082c.pdf",
     "static/media/unity-icon.png": "/my-self-react/static/media/unity-icon.ef23dd3caf1ba0b86e6a.png",
     "static/media/python-icon.png": "/my-self-react/static/media/python-icon.5a3b439c5d844bd5081b.png",
     "static/media/laptop.png": "/my-self-react/static/media/laptop.8e5db19fc7e6a4a0d88a.png",
     "static/media/mysql-icon.png": "/my-self-react/static/media/mysql-icon.bdbd1eb709e4c13258d2.png",
+    "static/media/google-map-icon.png": "/my-self-react/static/media/google-map-icon.9cd98cdf6cc619102a9b.png",
     "static/media/react-icon.png": "/my-self-react/static/media/react-icon.4458987cc59156258cac.png",
+    "static/media/vuejs-icon.webp": "/my-self-react/static/media/vuejs-icon.7e8138cb6cf806f89507.webp",
     "static/media/spring-icon.svg": "/my-self-react/static/media/spring-icon.5c62e7f4bbd6f07c0fd84d21ce9050ca.svg",
-    "index.html": "/my-self-react/index.html"
+    "static/media/typescript-icon.svg": "/my-self-react/static/media/typescript-icon.a4c19a324f72ed028c6c57b4e40a3b91.svg",
+    "index.html": "/my-self-react/index.html",
+    "main.57abf630.css.map": "/my-self-react/static/css/main.57abf630.css.map",
+    "main.c6a78fec.js.map": "/my-self-react/static/js/main.c6a78fec.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1202e42.css",
-    "static/js/main.1373ec10.js"
+    "static/css/main.57abf630.css",
+    "static/js/main.c6a78fec.js"
   ]
 }
