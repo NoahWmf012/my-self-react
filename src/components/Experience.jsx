@@ -78,7 +78,7 @@ function Experience() {
                     variants={variants}
                 >
                     <div className={`${setContentSize()}`}>
-                        <p className='font-bold text-xl text-info'>Full Stack Web Developer (Oct 2022 - Sep 2023)</p>
+                        <p className='font-bold text-xl text-info'>Full Stack Programmer(Oct 2022 - Sep 2023)</p>
                         <p className='italic font-thin text-slate-300'>Tradelink Electronic Commerce Limited • Hong Kong SAR</p>
                         <div>
                             <ul className="list-disc text-gray-100">
@@ -121,7 +121,7 @@ function Experience() {
                         <img className='h-full left-0' src={mentorIcon} alt='mentor-icon'></img>
                     </div>
                     <div className={`${setContentSize(true)}`}>
-                        <p className='font-bold text-xl text-info text-right'>Full-stack Web Development Mentor (May 2023 - Nov 2023)</p>
+                        <p className='font-bold text-xl text-info text-right'>Administrative Assistant(Mentor)(May 2021 – Sep 2023)</p>
                         <p className='italic font-thin text-right text-slate-300'>Xccelerate Org • Hong Kong SAR</p>
                         <div>
                             <ul className="list-disc text-gray-100">
@@ -157,8 +157,8 @@ function Experience() {
                     variants={variants}
                 >
                     <div className={`${setContentSize()}`}>
-                        <p className='font-bold text-xl text-info'>Front-end Game Developer (Jun 2021 - Jun 2022)</p>
-                        <p className='italic font-thin text-slate-300'>Szeka Limited • Hong Kong SAR</p>
+                        <p className='font-bold text-xl text-info'>Game Developer</p>
+                        <p className='italic font-thin text-slate-300'>Self Learning</p>
                         <div>
                             <ul className="list-disc text-gray-100">
                                 <li style={liStyle}>Unity3D (C#)</li>
@@ -172,7 +172,7 @@ function Experience() {
                             <br />
                             <br />
                             The individual has experience in game development for mobile platforms,
-                            including iOS and Android, using various tools such as <span className='italic'>Unity3D, Cocos2D-Lua, C#, and Android Studio</span>.
+                            including iOS and Android, using various tools such as <span className='italic'>Unity3D, C#, and Android Studio</span>.
                             They possess skills in programming animation software to predefined specifications for interactive video games,
                             internet, and mobile applications. Additionally, they have experience in developing,
                             implementing, modifying, and maintaining gameplay features that are integrated effectively into the software system.
