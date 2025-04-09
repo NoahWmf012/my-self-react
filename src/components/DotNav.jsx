@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import { Form, Radio } from 'react-daisyui';
 
@@ -11,7 +11,6 @@ const navbarItems = (
     </React.Fragment>)
 
 function DotNav() {
-    const [selectedPage, setSelectedPage] = useState("home")
 
     return (
         <div className='flex flex-col gap-3 fixed top-[50%] right-7'>

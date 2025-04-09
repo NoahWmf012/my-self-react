@@ -1,9 +1,7 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-import ParallaxText from './ParallaxText';
 import SelfPic from '../images/self-pic.jpg'
 import { HashScroll } from 'react-hash-scroll';
-import { motion } from "framer-motion";
 import {
     Chart as ChartJS,
     RadialLinearScale,
@@ -13,7 +11,6 @@ import {
     Tooltip,
     Legend,
 } from 'chart.js';
-import { Radar } from 'react-chartjs-2';
 
 ChartJS.register(
     RadialLinearScale,
@@ -23,6 +20,8 @@ ChartJS.register(
     Tooltip,
     Legend
 );
+
+// Radar Chart
 const data = {
     labels: ['Passion', 'Creativity', 'Patience', 'Easy-going', 'Optimism', 'Independence'],
     datasets: [
