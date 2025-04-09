@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-self-react/static/css/main.57abf630.css",
-    "main.js": "/my-self-react/static/js/main.c6a78fec.js",
+    "main.js": "/my-self-react/static/js/main.8b728378.js",
     "static/media/self-pic.jpg": "/my-self-react/static/media/self-pic.2c059bc9c1c3c4753cfe.jpg",
     "static/media/bootcamp-mentor.png": "/my-self-react/static/media/bootcamp-mentor.8d78329fa52007ee8f5b.png",
     "static/media/Noah WU_Resume.pdf": "/my-self-react/static/media/Noah WU_Resume.781785d9347257dc0e2f.pdf",
@@ -19,10 +19,10 @@
     "static/media/typescript-icon.svg": "/my-self-react/static/media/typescript-icon.a4c19a324f72ed028c6c57b4e40a3b91.svg",
     "index.html": "/my-self-react/index.html",
     "main.57abf630.css.map": "/my-self-react/static/css/main.57abf630.css.map",
-    "main.c6a78fec.js.map": "/my-self-react/static/js/main.c6a78fec.js.map"
+    "main.8b728378.js.map": "/my-self-react/static/js/main.8b728378.js.map"
   },
   "entrypoints": [
     "static/css/main.57abf630.css",
-    "static/js/main.c6a78fec.js"
+    "static/js/main.8b728378.js"
   ]
 }
