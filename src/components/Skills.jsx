@@ -8,6 +8,7 @@ import nodeJSIcon from "../images/node-js-icon.png"
 import reactIcon from "../images/react-icon.png"
 import springBootIcon from "../images/spring-icon.svg"
 import pythonIcon from "../images/python-icon.png"
+import typescriptIcon from "../images/typescript-icon.svg"
 import { motion } from 'framer-motion';
 
 const ContainerVariants = {
@@ -48,6 +49,7 @@ function SkillItems(props) {
 
 function Skills() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
     useEffect(() => {
         const handleResize = () => {
             setWindowWidth(window.innerWidth);
@@ -59,11 +61,13 @@ function Skills() {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
+
     const setTextSize = () => {
         if (windowWidth < 900) {
             return 'hidden';
         }
     };
+
     const setImageSize = () => {
         if (windowWidth > 720) {
             return 'w-[400px]';
@@ -88,12 +92,13 @@ function Skills() {
             >
                 <div className='flex-initial'><Lottie className={`${setImageSize()}`} animationData={animatedSkill} loop={true} /></div>
                 <div className="flex-initial w-full px-4 lg:w-7/12 self-center">
-                    <SkillItems spanClass={setTextSize()} title={"MySQL"} icon={mySQLIcon} color={`bg-warning`} value={`w-[75%]`} />
-                    <SkillItems spanClass={setTextSize()} title={"ReactJS"} icon={reactIcon} color={`bg-warning`} value={`w-[80%]`} />
-                    <SkillItems spanClass={setTextSize()} title={"SpringBoot"} icon={springBootIcon} color={`bg-warning`} value={`w-[70%]`} />
-                    <SkillItems spanClass={setTextSize()} title={"NodeJS"} icon={nodeJSIcon} color={`bg-success `} value={`w-[60%]`} />
-                    <SkillItems spanClass={setTextSize()} title={"C#"} icon={csIcon} color={`bg-primary`} value={`w-[50%]`} />
-                    <SkillItems spanClass={setTextSize()} title={"Python"} icon={pythonIcon} color={`bg-primary`} value={`w-[35%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"TypeScript"} icon={typescriptIcon} color={`bg-green-500`} value={`w-[80%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"ReactJS"} icon={reactIcon} color={`bg-green-500`} value={`w-[80%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"MySQL"} icon={mySQLIcon} color={`bg-success`} value={`w-[70%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"JAVA"} icon={springBootIcon} color={`bg-success`} value={`w-[65%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"NodeJS"} icon={nodeJSIcon} color={`bg-success`} value={`w-[65%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"C#"} icon={csIcon} color={`bg-error`} value={`w-[50%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"Python"} icon={pythonIcon} color={`bg-error`} value={`w-[35%]`} />
                 </div>
             </motion.div>
         </HashScroll>
