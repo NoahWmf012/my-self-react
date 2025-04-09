@@ -9,8 +9,8 @@ function Footer() {
       <p>Copyright © 2023 - All right reserved</p>
     </div>
     <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/ChrisWU012"><img src={GithubIcon} width="24" height="24" className="max-w-sm rounded-lg shadow-2xl" alt="Github link" /></a>
-      <a target="_blank" rel="noopener noreferrer" href="https://leetcode.com/Chris_WU123/"><img src={LeetcodeIcon} width="24" height="24" className="max-w-sm rounded-lg shadow-2xl" alt="Github link" /></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/NoahWmf012"><img src={GithubIcon} width="24" height="24" className="max-w-sm rounded-lg shadow-2xl" alt="Github link" /></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://leetcode.com/u/Noah_Wu012/"><img src={LeetcodeIcon} width="24" height="24" className="max-w-sm rounded-lg shadow-2xl" alt="Github link" /></a>
     </div>
   </footer>;
 }
