@@ -97,8 +97,8 @@ function Skills() {
                     <SkillItems spanClass={setTextSize()} title={"MySQL"} icon={mySQLIcon} color={`bg-success`} value={`w-[70%]`} />
                     <SkillItems spanClass={setTextSize()} title={"JAVA"} icon={springBootIcon} color={`bg-success`} value={`w-[65%]`} />
                     <SkillItems spanClass={setTextSize()} title={"NodeJS"} icon={nodeJSIcon} color={`bg-success`} value={`w-[65%]`} />
-                    <SkillItems spanClass={setTextSize()} title={"C#"} icon={csIcon} color={`bg-error`} value={`w-[50%]`} />
-                    <SkillItems spanClass={setTextSize()} title={"Python"} icon={pythonIcon} color={`bg-error`} value={`w-[35%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"C#"} icon={csIcon} color={`bg-green-300`} value={`w-[50%]`} />
+                    <SkillItems spanClass={setTextSize()} title={"Python"} icon={pythonIcon} color={`bg-green-200`} value={`w-[35%]`} />
                 </div>
             </motion.div>
         </HashScroll>

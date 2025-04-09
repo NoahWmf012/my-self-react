@@ -135,7 +135,7 @@ function Experience() {
                         <p className='text-right text-gray-400'>
                             <br />
                             <br />
-                            As an instructor, I mentored 10 students per class while updating teaching materials.
+                            As an instructor, I mentored 5 students per class while updating teaching materials.
                             I taught <span className='italic'>HTML/CSS/JavaScript, Bootstrap/jQuery/Ajax, NodeJS, SQL/PostgresSQL/KnexJS/Redis,
                                 React/Route/Redux/JWT, and AWS deployment</span>. My goal was to provide comprehensive instruction
                             and help students develop the skills they need to succeed.

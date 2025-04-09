@@ -70,15 +70,17 @@ function AboutMe() {
                     <div className="hero-content flex-col lg:flex-row">
                         <img src={SelfPic} className="max-w-sm rounded-lg shadow-2xl" alt='self pic' />
                         <div>
-                            <h1 className="text-5xl font-bold text-accent h-24"><Typewriter
-                                options={{
-                                    strings: ["I'm Noah", 'A full-stack web developer', 'in ReactJS, NodeJS & Spring Boot'],
-                                    autoStart: true,
-                                    loop: true,
-                                    deleteSpeed: 12,
-                                    delay: 50
-                                }}
-                            /></h1>
+                            <h1 className="text-5xl font-bold text-accent h-24">
+                                <Typewriter
+                                    options={{
+                                        strings: ["I'm Noah", 'A full-stack web developer', 'in ReactJS, NodeJS & Java'],
+                                        autoStart: true,
+                                        loop: true,
+                                        deleteSpeed: 12,
+                                        delay: 50
+                                    }}
+                                />
+                            </h1>
                             <p className="py-6 text-slate-200">
                                 As a 3 year-experienced web developer with solid skills
                                 in Front-end and Back-end developement.
