@@ -82,7 +82,7 @@ function AboutMe() {
                                 />
                             </h1>
                             <p className="py-6 text-slate-200">
-                                As a 3 year-experienced web developer with solid skills
+                                As a 3+ year-experienced web developer with solid skills
                                 in Front-end and Back-end developement.
                                 I am confident in my ability to create dynamic and high-quality web applications.
                                 With hands-on experience in deployment tools such as Kubernetes and Argo,

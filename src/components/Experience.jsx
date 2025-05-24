@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import laptopIcon from "../images/laptop.png"
 import mentorIcon from "../images/bootcamp-mentor.png"
 import gameIcon from "../images/unity.jpg"
+import rifoIcon from "../images/rifo-icon.jpg"
 
 const variants = {
     offscreen: {
@@ -23,10 +24,10 @@ const liStyle = {
     float: "left",
     margin: "0 10px"
 }
-const liRStyle = {
-    float: "right",
-    margin: "0 10px"
-}
+// const liRStyle = {
+//     float: "right",
+//     margin: "0 10px"
+// }
 
 function Experience() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -68,7 +69,7 @@ function Experience() {
         <HashScroll hash="#experience">
             <div className='grid place-content-center'>
                 <motion.div
-                    id='full-stack-web-developer'
+                    id='administrative-assistant'
                     className='w-full flex flex-row my-20'
                     initial="offscreen"
                     whileInView="onscreen"
@@ -78,8 +79,46 @@ function Experience() {
                     variants={variants}
                 >
                     <div className={`${setContentSize()}`}>
-                        <p className='font-bold text-xl text-info'>Full Stack Programmer(Oct 2022 - Sep 2023)</p>
-                        <p className='italic font-thin text-slate-300'>Tradelink Electronic Commerce Limited • Hong Kong SAR</p>
+                        <p className='font-bold text-xl text-info'>Administrative Assistant(Jun 2024 – Present)</p>
+                        <p className='italic font-thin text-slate-300'>Rifo Realty Group | <a className='text-info' href="https://www.rifo.com/" target="_blank">Website</a></p>
+                        <div>
+                            <ul className="list-disc text-gray-100">
+                                <li style={liStyle}>Realty Industry</li>
+                            </ul>
+                        </div>
+                        <p className='text-gray-400'>
+                            <br />
+                            <br />
+                            • Providing 50+ IT support including software & hardware setup and troubleshooting.
+                            <br />
+                            • Processing and digitizing over 1,000 historical receipts for financial documentation and internal audits, using Excel
+                            for data tracking.
+                            <br />
+                            • Handling 20+ daily inbound calls and 10+ email inquiries related to commission and deposit processes.
+                        </p>
+                    </div>
+                    <div className={`${setImageSize()}`}>
+                        <img className='h-full right-0' src={rifoIcon} alt='mentor-icon'></img>
+                    </div>
+                </motion.div>
+
+                <motion.div
+                    id='full-stack-web-developer'
+                    className='w-full flex flex-row my-20'
+                    initial="offscreen"
+                    whileInView="onscreen"
+                    viewport={{
+                        once: true
+                    }}
+                    variants={variants}
+                >
+
+                    <div className={`${setImageSize()}`}>
+                        <img className={`h-full left-0`} src={laptopIcon} alt='laptop-icon'></img>
+                    </div>
+                    <div className={`${setContentSize()}`}>
+                        <p className='font-bold text-xl text-info'>Software Engineer(Oct 2022 - Jun 2024)</p>
+                        <p className='italic font-thin text-slate-300'>Tradelink Electronic Commerce Limited | <a className='text-info' href="https://www.tradelink.com.hk/en/index.html" target="_blank">Website</a></p>
                         <div>
                             <ul className="list-disc text-gray-100">
                                 <li style={liStyle}>Spring Boot (JAVA)</li>
@@ -92,17 +131,18 @@ function Experience() {
                         <p className='text-gray-400'>
                             <br />
                             <br />
-                            I contributed to several projects related to Hong Kong's exports and imports,
-                            including the revamping of the <span className='italic'>Hong Kong Origin Certificate system</span> .
-                            I developed front-end features using <span className='italic'>React and a back-end CRUD application with Java Spring Boot</span>,
-                            and was involved in every stage of the software life cycle.
-                            Additionally, I provided ongoing maintenance and support and ensured the system was user-friendly
-                            for over 100,000 users from both government and private sectors.
-                            Through my contributions, I played an important role in the success of these critical projects.
+                            • Led full software development lifecycle for web applications and RESTful APIs, improving system reliability andenhancing development efficiency by 50% through streamlined debugging and testing workflows.
+                            <br />
+                            • Managed end-to-end revamp of full-stack CRUD applications used by 10,000+ users, including government andprivate sector clients, resulting in 40% faster load times and improved user experience.
+                            <br />
+                            • Contributed to UAT, code reviews, and technical documentation, supporting project delivery and consistent codequality.
+                            <br />
+                            • Collaborated with cross-functional teams including developers, testing team, and PMs to ensure feature alignmentand reduce rework by 15%.
+                            <br />
+                            • Assisted in gathering and documenting government project requirements, improving clarity and reducingdevelopment bottlenecks.
+                            <br />
+                            • Utilized modern tech stack: HTML/CSS/JavaScript, React, REST APIs, MySQL, Oracle, Spring Boot, Docker,Kubernetes, Argo CD, and CI/CD pipelines; cut deployment time by 30% through automation
                         </p>
-                    </div>
-                    <div className={`${setImageSize()}`}>
-                        <img className={`h-full right-0`} src={laptopIcon} alt='laptop-icon'></img>
                     </div>
                 </motion.div>
 
@@ -116,33 +156,32 @@ function Experience() {
                     }}
                     variants={variants}
                 >
-
-                    <div className={`${setImageSize()}`}>
-                        <img className='h-full left-0' src={mentorIcon} alt='mentor-icon'></img>
-                    </div>
-                    <div className={`${setContentSize(true)}`}>
-                        <p className='font-bold text-xl text-info text-right'>Administrative Assistant(Mentor)(May 2021 – Sep 2023)</p>
-                        <p className='italic font-thin text-right text-slate-300'>Xccelerate Org • Hong Kong SAR</p>
+                    <div className={`${setContentSize()}`}>
+                        <p className='font-bold text-xl text-info'>Administrative Assistant (Mentor) (May 2021 – Sep 2023)</p>
+                        <p className='italic font-thin text-slate-300'>Xccelerate Org | <a className='text-info' href="https://www.xccelerate.co/" target="_blank">Website</a></p>
                         <div>
                             <ul className="list-disc text-gray-100">
-                                <li style={liRStyle}>AWS deployment</li>
-                                <li style={liRStyle}>PostgreSQL</li>
-                                <li style={liRStyle}>ReactJS</li>
-                                <li style={liRStyle}>NodeJS</li>
-                                <li style={liRStyle}>HTML / CSS / JavaScript</li>
+                                <li style={liStyle}>AWS deployment</li>
+                                <li style={liStyle}>PostgreSQL</li>
+                                <li style={liStyle}>ReactJS</li>
+                                <li style={liStyle}>NodeJS</li>
+                                <li style={liStyle}>HTML / CSS / JavaScript</li>
                             </ul>
                         </div>
-                        <p className='text-right text-gray-400'>
+                        <p className='text-gray-400'>
                             <br />
                             <br />
-                            As an instructor, I mentored 5 students per class while updating teaching materials.
-                            I taught <span className='italic'>HTML/CSS/JavaScript, Bootstrap/jQuery/Ajax, NodeJS, SQL/PostgresSQL/KnexJS/Redis,
-                                React/Route/Redux/JWT, and AWS deployment</span>. My goal was to provide comprehensive instruction
-                            and help students develop the skills they need to succeed.
-                            I created a supportive learning environment that allowed students to
-                            thrive and drew on my extensive experience as a web developer and passion for teaching.
-                            I am proud of the impact I had on my students and look forward to continuing to
-                            work in this field in the future.</p>
+                            • Mentored a cohort of more than 5 students per class, providing unwavering support and assigning weekly assignments to optimize their learning experience
+                            <br />
+                            • Instructed on different areas, including DOM, ReactJS, NodeJS, Database/PostgreSQL, Authentication/JWT, AWS deployment etc.
+                            <br />
+                            • Conducted over 50 group consultations, offering invaluable guidance and advice to students regarding their career planning and program participation.
+                            <br />
+                            • Oversaw the comprehensive onboarding process for new students, managing promotional materials, student records, and graduation procedures for more than 100+ students.
+                        </p>
+                    </div>
+                    <div className={`${setImageSize()}`}>
+                        <img className='h-full right-0' src={mentorIcon} alt='mentor-icon'></img>
                     </div>
                 </motion.div>
 
@@ -156,6 +195,9 @@ function Experience() {
                     }}
                     variants={variants}
                 >
+                    <div className={`${setImageSize()}`}>
+                        <img className='h-full left-0' src={gameIcon} alt='game-icon'></img>
+                    </div>
                     <div className={`${setContentSize()}`}>
                         <p className='font-bold text-xl text-info'>Game Developer</p>
                         <p className='italic font-thin text-slate-300'>Self Learning</p>
@@ -177,9 +219,6 @@ function Experience() {
                             internet, and mobile applications. Additionally, they have experience in developing,
                             implementing, modifying, and maintaining gameplay features that are integrated effectively into the software system.
                         </p>
-                    </div>
-                    <div className={`${setImageSize()}`}>
-                        <img className='h-full right-0' src={gameIcon} alt='game-icon'></img>
                     </div>
                 </motion.div>
             </div>
